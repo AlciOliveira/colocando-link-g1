@@ -1,0 +1,74 @@
+.maior{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 40px;   
+}
+input, .busca{
+    opacity: 0.5;
+    height: 26px;
+}
+
+input{
+    background-color: #770c04;
+    color: white;
+    border: 0;
+    right: 32px;
+    width: 150px;
+    transition: color black;
+}
+
+
+input:focus{
+    background-color: white;
+    color:darkslategrey ;
+    width: 200px;
+    margin-right: 20px;
+    border: 0;
+    transition-duration: 0.5s;  
+}
+
+.maior{
+  font-size: 40px;
+}
+
+.menu, .fecha{
+    margin-top: 22px;
+    font-size: 13px;
+    font-weight: 500;
+    padding-right: 2px;
+
+}
+.fecha{
+    margin-left: 12px;
+    width: 30px;
+   
+}
+.fas{
+    margin-top: 23px;
+    margin-right: 8px;
+    
+}
+
+.busca, i, .fas{
+    margin-right: 30px;
+    margin-top: 10px;
+    display: block;    
+}
+
+.fas{
+    top: px;
+    margin-right: -79px;
+}
+.fa-search{
+    margin-right: 7px;
+    margin-top: -32px;
+}
+
+.x{
+    margin-right: 20px;
+    left: 0;
+    width: 100%;
+    
+}
+
+
