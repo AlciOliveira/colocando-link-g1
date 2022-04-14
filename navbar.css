@@ -1,0 +1,50 @@
+.flex-container-menu{
+    display: flex;
+    color: white;
+    max-width: 100%;
+    background-color: #C4170C;
+    flex-direction: row;
+    height: 60px;
+}
+
+body{
+    background-color: #4b4b4b5d;
+}
+
+.list, a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #908989;
+
+}
+
+
+#toggler,
+.flex-container-menu .list{
+    display: none;
+
+}
+  #toggler:checked ~ .list{
+    display: block;
+    width: 250px;
+    background-color:#F7F7F7;
+    height: 1200px;  
+}
+
+.list, .menu{
+  margin-top: -60px;
+  text-indent: -999999;
+  font-size: 16px;
+}
+
+li{
+    padding: 8px;
+}
+
+.menu{
+    padding: 0;
+   margin-top: 12px;
+}
